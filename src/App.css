@@ -1,8 +1,10 @@
 body{
-    background-image: url("./images/man4.jpg");
-    background-size: 87rem;
     color: white; 
+    /* background-image: url("./images/man4.jpg"); */
+    /* background-size: 87rem; */
+    background-color: black;
 }
+
 
 .loginClass{
     margin-top: 5rem;
@@ -13,6 +15,7 @@ body{
     margin: auto;
     padding: 10px;
     background-color: black;
+    
 
 }
 .signupClassClass{
@@ -25,4 +28,24 @@ body{
     padding: 10px;
     background-color: black;
 
+}
+
+.middle{
+    
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.middle1{
+    display: flex;
+    padding: 2rem;
+}
+.middle1 img{
+    height: 25rem;
+    width: 50rem;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 20px rgb(69, 68, 68);
+}
+.middle1 div{
+    padding: 5rem;
+  
 }

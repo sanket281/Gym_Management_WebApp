@@ -39,7 +39,7 @@ const Login = () => {
       localStorage.removeItem("token");
       navigate("/login");
       clearInterval(interval);
-    }, 180000);
+    }, 18000000);
   };
 
   const onChange = (e) => {

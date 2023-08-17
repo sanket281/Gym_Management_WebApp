@@ -11,9 +11,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
-        <div className="title">
-          <center><h1>GEDU FITNESS HUB</h1></center>
-        </div>
+       
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/login" element={<Login/>}/>
